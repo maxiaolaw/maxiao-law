@@ -118,12 +118,13 @@ main {
 }
 
 .name-cn {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-weight: 500;
+  font-family: 'Cormorant Garamond', 'Songti SC', 'STSong', serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: italic;
   color: var(--rose);
-  letter-spacing: 0.04em;
-  margin-left: 6px;
+  letter-spacing: 0.12em;
+  margin-left: 4px;
 }
 
 .pronunciation {
