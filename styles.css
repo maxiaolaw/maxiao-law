@@ -117,6 +117,15 @@ main {
   color: var(--text);
 }
 
+.name-cn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--rose);
+  letter-spacing: 0.04em;
+  margin-left: 6px;
+}
+
 .pronunciation {
   font-family: 'Jost', sans-serif;
   font-size: 0.82rem;
