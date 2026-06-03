@@ -1,0 +1,2038 @@
+[
+{
+"hanzi": "苏",
+"pinyin": "sū",
+"tone": 1,
+"meaning_en": "revive, awaken, lush",
+"theme_tags": [
+"nature",
+"light"
+],
+"poem_title": "春夜喜雨",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "好雨知时节，当春乃发生",
+"line_en": "A good rain knows its season; it comes when spring arrives.",
+"title_en": "Welcome Rain on a Spring Night",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "m"
+},
+{
+"hanzi": "烟",
+"pinyin": "yān",
+"tone": 1,
+"meaning_en": "mist, smoke, haze",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "黄鹤楼送孟浩然之广陵",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "烟花三月下扬州",
+"line_en": "In the mist and blossoms of the third month, he goes down to Yangzhou.",
+"title_en": "Seeing Meng Haoran off to Guangling from Yellow Crane Tower",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "n"
+},
+{
+"hanzi": "晨",
+"pinyin": "chén",
+"tone": 2,
+"meaning_en": "dawn, early morning",
+"theme_tags": [
+"light",
+"nature"
+],
+"poem_title": "春晓",
+"poet": "孟浩然",
+"dynasty": "Tang",
+"line": "春眠不觉晓，处处闻啼鸟",
+"line_en": "In spring I sleep, unaware of dawn, till everywhere I hear the birds singing.",
+"title_en": "Spring Dawn",
+"poet_en": "Meng Haoran",
+"poet_dates": "689–740",
+"gender": "n"
+},
+{
+"hanzi": "林",
+"pinyin": "lín",
+"tone": 2,
+"meaning_en": "forest, grove",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "鹿柴",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "空山不见人，但闻人语响",
+"line_en": "In the empty hills no one is seen, yet the voices of people echo.",
+"title_en": "Deer Enclosure",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "溪",
+"pinyin": "xī",
+"tone": 1,
+"meaning_en": "stream, brook",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "明月松间照，清泉石上流",
+"line_en": "The bright moon shines among the pines; the clear spring flows over the stones.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "明",
+"pinyin": "míng",
+"tone": 2,
+"meaning_en": "bright, luminous, clear",
+"theme_tags": [
+"light",
+"wisdom"
+],
+"poem_title": "静夜思",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "举头望明月，低头思故乡",
+"line_en": "I lift my head to gaze at the bright moon, then lower it, longing for home.",
+"title_en": "Thoughts on a Quiet Night",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "n"
+},
+{
+"hanzi": "月",
+"pinyin": "yuè",
+"tone": 4,
+"meaning_en": "moon",
+"theme_tags": [
+"light",
+"solitude"
+],
+"poem_title": "静夜思",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "举头望明月，低头思故乡",
+"line_en": "I lift my head to gaze at the bright moon, then lower it, longing for home.",
+"title_en": "Thoughts on a Quiet Night",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "霜",
+"pinyin": "shuāng",
+"tone": 1,
+"meaning_en": "frost, pure white",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "静夜思",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "床前明月光，疑是地上霜",
+"line_en": "Before my bed, the bright moonlight—I take it for frost upon the ground.",
+"title_en": "Thoughts on a Quiet Night",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "云",
+"pinyin": "yún",
+"tone": 2,
+"meaning_en": "cloud",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "望庐山瀑布",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "日照香炉生紫烟",
+"line_en": "Sunlight on Incense Burner Peak kindles a haze of purple.",
+"title_en": "Watching the Waterfall at Mount Lu",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "n"
+},
+{
+"hanzi": "峰",
+"pinyin": "fēng",
+"tone": 1,
+"meaning_en": "mountain peak",
+"theme_tags": [
+"strength",
+"nature"
+],
+"poem_title": "望岳",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "会当凌绝顶，一览众山小",
+"line_en": "One day I shall stand atop the highest peak and see how small all other mountains are.",
+"title_en": "Gazing at Mount Tai",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "m"
+},
+{
+"hanzi": "凌",
+"pinyin": "líng",
+"tone": 2,
+"meaning_en": "soar above, surpass",
+"theme_tags": [
+"strength",
+"bold"
+],
+"poem_title": "望岳",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "会当凌绝顶，一览众山小",
+"line_en": "One day I shall stand atop the highest peak and see how small all other mountains are.",
+"title_en": "Gazing at Mount Tai",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "m"
+},
+{
+"hanzi": "兰",
+"pinyin": "lán",
+"tone": 2,
+"meaning_en": "orchid, fragrant",
+"theme_tags": [
+"grace",
+"nature",
+"peace"
+],
+"poem_title": "饮酒",
+"poet": "陶渊明",
+"dynasty": "Jin",
+"line": "采菊东篱下，悠然见南山",
+"line_en": "Plucking chrysanthemums by the eastern hedge, at ease I catch sight of the southern hills.",
+"title_en": "Drinking Wine",
+"poet_en": "Tao Yuanming",
+"poet_dates": "365–427",
+"gender": "f"
+},
+{
+"hanzi": "菊",
+"pinyin": "jú",
+"tone": 2,
+"meaning_en": "chrysanthemum",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "饮酒",
+"poet": "陶渊明",
+"dynasty": "Jin",
+"line": "采菊东篱下，悠然见南山",
+"line_en": "Plucking chrysanthemums by the eastern hedge, at ease I catch sight of the southern hills.",
+"title_en": "Drinking Wine",
+"poet_en": "Tao Yuanming",
+"poet_dates": "365–427",
+"gender": "f"
+},
+{
+"hanzi": "悠",
+"pinyin": "yōu",
+"tone": 1,
+"meaning_en": "leisurely, serene, distant",
+"theme_tags": [
+"solitude",
+"grace",
+"peace"
+],
+"poem_title": "饮酒",
+"poet": "陶渊明",
+"dynasty": "Jin",
+"line": "采菊东篱下，悠然见南山",
+"line_en": "Plucking chrysanthemums by the eastern hedge, at ease I catch sight of the southern hills.",
+"title_en": "Drinking Wine",
+"poet_en": "Tao Yuanming",
+"poet_dates": "365–427",
+"gender": "n"
+},
+{
+"hanzi": "清",
+"pinyin": "qīng",
+"tone": 1,
+"meaning_en": "clear, pure, fresh",
+"theme_tags": [
+"light",
+"grace"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "明月松间照，清泉石上流",
+"line_en": "The bright moon shines among the pines; the clear spring flows over the stones.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "泉",
+"pinyin": "quán",
+"tone": 2,
+"meaning_en": "spring, fountain",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "明月松间照，清泉石上流",
+"line_en": "The bright moon shines among the pines; the clear spring flows over the stones.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "松",
+"pinyin": "sōng",
+"tone": 1,
+"meaning_en": "pine tree, steadfast",
+"theme_tags": [
+"strength",
+"nature"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "明月松间照，清泉石上流",
+"line_en": "The bright moon shines among the pines; the clear spring flows over the stones.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "m"
+},
+{
+"hanzi": "雪",
+"pinyin": "xuě",
+"tone": 3,
+"meaning_en": "snow, pure",
+"theme_tags": [
+"light",
+"solitude"
+],
+"poem_title": "江雪",
+"poet": "柳宗元",
+"dynasty": "Tang",
+"line": "孤舟蓑笠翁，独钓寒江雪",
+"line_en": "In a lone boat, an old man in straw cape and hat fishes alone in the cold river snow.",
+"title_en": "River Snow",
+"poet_en": "Liu Zongyuan",
+"poet_dates": "773–819",
+"gender": "f"
+},
+{
+"hanzi": "江",
+"pinyin": "jiāng",
+"tone": 1,
+"meaning_en": "river, great river",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "江雪",
+"poet": "柳宗元",
+"dynasty": "Tang",
+"line": "千山鸟飞绝，万径人踪灭",
+"line_en": "From a thousand hills, bird flights have vanished; on ten thousand paths, all human traces are gone.",
+"title_en": "River Snow",
+"poet_en": "Liu Zongyuan",
+"poet_dates": "773–819",
+"gender": "m"
+},
+{
+"hanzi": "翠",
+"pinyin": "cuì",
+"tone": 4,
+"meaning_en": "kingfisher green, jade-like",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "钱塘湖春行",
+"poet": "白居易",
+"dynasty": "Tang",
+"line": "绿杨阴里白沙堤",
+"line_en": "In the shade of green willows lies the White Sand Embankment.",
+"title_en": "A Spring Walk by Qiantang Lake",
+"poet_en": "Bai Juyi",
+"poet_dates": "772–846",
+"gender": "f"
+},
+{
+"hanzi": "莺",
+"pinyin": "yīng",
+"tone": 1,
+"meaning_en": "oriole, melodious bird",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "钱塘湖春行",
+"poet": "白居易",
+"dynasty": "Tang",
+"line": "几处早莺争暖树",
+"line_en": "Here and there, early orioles vie for the sun-warmed trees.",
+"title_en": "A Spring Walk by Qiantang Lake",
+"poet_en": "Bai Juyi",
+"poet_dates": "772–846",
+"gender": "f"
+},
+{
+"hanzi": "燕",
+"pinyin": "yàn",
+"tone": 4,
+"meaning_en": "swallow, graceful bird",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "钱塘湖春行",
+"poet": "白居易",
+"dynasty": "Tang",
+"line": "谁家新燕啄春泥",
+"line_en": "Whose new swallows are these, pecking at the spring mud?",
+"title_en": "A Spring Walk by Qiantang Lake",
+"poet_en": "Bai Juyi",
+"poet_dates": "772–846",
+"gender": "f"
+},
+{
+"hanzi": "春",
+"pinyin": "chūn",
+"tone": 1,
+"meaning_en": "spring, new beginning",
+"theme_tags": [
+"nature",
+"light"
+],
+"poem_title": "春夜喜雨",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "好雨知时节，当春乃发生",
+"line_en": "A good rain knows its season; it comes when spring arrives.",
+"title_en": "Welcome Rain on a Spring Night",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "雨",
+"pinyin": "yǔ",
+"tone": 3,
+"meaning_en": "rain, nourishing",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "春夜喜雨",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "好雨知时节，当春乃发生",
+"line_en": "A good rain knows its season; it comes when spring arrives.",
+"title_en": "Welcome Rain on a Spring Night",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "花",
+"pinyin": "huā",
+"tone": 1,
+"meaning_en": "flower, blossom",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "黄鹤楼送孟浩然之广陵",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "烟花三月下扬州",
+"line_en": "In the mist and blossoms of the third month, he goes down to Yangzhou.",
+"title_en": "Seeing Meng Haoran off to Guangling from Yellow Crane Tower",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "风",
+"pinyin": "fēng",
+"tone": 1,
+"meaning_en": "wind",
+"theme_tags": [
+"nature",
+"wild"
+],
+"poem_title": "大风歌",
+"poet": "刘邦",
+"dynasty": "Han",
+"line": "大风起兮云飞扬",
+"line_en": "A great wind rises, and the clouds go scudding.",
+"title_en": "Song of the Great Wind",
+"poet_en": "Liu Bang",
+"poet_dates": "256–195 BCE",
+"gender": "n"
+},
+{
+"hanzi": "远",
+"pinyin": "yuǎn",
+"tone": 3,
+"meaning_en": "distant, far-reaching",
+"theme_tags": [
+"solitude",
+"wisdom"
+],
+"poem_title": "登鹳雀楼",
+"poet": "王之涣",
+"dynasty": "Tang",
+"line": "欲穷千里目，更上一层楼",
+"line_en": "To stretch your gaze a thousand li, climb yet one more storey.",
+"title_en": "Ascending Stork Tower",
+"poet_en": "Wang Zhihuan",
+"poet_dates": "688–742",
+"gender": "n"
+},
+{
+"hanzi": "楼",
+"pinyin": "lóu",
+"tone": 2,
+"meaning_en": "tower, high place",
+"theme_tags": [
+"strength",
+"wisdom"
+],
+"poem_title": "登鹳雀楼",
+"poet": "王之涣",
+"dynasty": "Tang",
+"line": "欲穷千里目，更上一层楼",
+"line_en": "To stretch your gaze a thousand li, climb yet one more storey.",
+"title_en": "Ascending Stork Tower",
+"poet_en": "Wang Zhihuan",
+"poet_dates": "688–742",
+"gender": "n"
+},
+{
+"hanzi": "晚",
+"pinyin": "wǎn",
+"tone": 3,
+"meaning_en": "evening, dusk",
+"theme_tags": [
+"solitude",
+"nature",
+"peace"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "空山新雨后，天气晚来秋",
+"line_en": "Over the empty hills after fresh rain, the evening air turns to autumn.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "秋",
+"pinyin": "qiū",
+"tone": 1,
+"meaning_en": "autumn",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "山居秋暝",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "空山新雨后，天气晚来秋",
+"line_en": "Over the empty hills after fresh rain, the evening air turns to autumn.",
+"title_en": "Autumn Evening in the Mountains",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "竹",
+"pinyin": "zhú",
+"tone": 2,
+"meaning_en": "bamboo, integrity",
+"theme_tags": [
+"strength",
+"nature"
+],
+"poem_title": "竹里馆",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "独坐幽篁里，弹琴复长啸",
+"line_en": "Alone I sit in the dark bamboo grove, playing my zither and whistling long.",
+"title_en": "Bamboo Grove Lodge",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "m"
+},
+{
+"hanzi": "琴",
+"pinyin": "qín",
+"tone": 2,
+"meaning_en": "zither, music, harmony",
+"theme_tags": [
+"grace",
+"wisdom",
+"harmony"
+],
+"poem_title": "竹里馆",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "独坐幽篁里，弹琴复长啸",
+"line_en": "Alone I sit in the dark bamboo grove, playing my zither and whistling long.",
+"title_en": "Bamboo Grove Lodge",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "f"
+},
+{
+"hanzi": "幽",
+"pinyin": "yōu",
+"tone": 1,
+"meaning_en": "tranquil, secluded, deep",
+"theme_tags": [
+"solitude",
+"nature",
+"peace"
+],
+"poem_title": "竹里馆",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "独坐幽篁里，弹琴复长啸",
+"line_en": "Alone I sit in the dark bamboo grove, playing my zither and whistling long.",
+"title_en": "Bamboo Grove Lodge",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "深",
+"pinyin": "shēn",
+"tone": 1,
+"meaning_en": "deep, profound",
+"theme_tags": [
+"wisdom",
+"solitude"
+],
+"poem_title": "春晓",
+"poet": "孟浩然",
+"dynasty": "Tang",
+"line": "夜来风雨声，花落知多少",
+"line_en": "Through the night came the sound of wind and rain—how many blossoms must have fallen?",
+"title_en": "Spring Dawn",
+"poet_en": "Meng Haoran",
+"poet_dates": "689–740",
+"gender": "n"
+},
+{
+"hanzi": "晓",
+"pinyin": "xiǎo",
+"tone": 3,
+"meaning_en": "daybreak, to understand",
+"theme_tags": [
+"light",
+"wisdom"
+],
+"poem_title": "春晓",
+"poet": "孟浩然",
+"dynasty": "Tang",
+"line": "春眠不觉晓，处处闻啼鸟",
+"line_en": "In spring I sleep, unaware of dawn, till everywhere I hear the birds singing.",
+"title_en": "Spring Dawn",
+"poet_en": "Meng Haoran",
+"poet_dates": "689–740",
+"gender": "n"
+},
+{
+"hanzi": "鸣",
+"pinyin": "míng",
+"tone": 2,
+"meaning_en": "to sing (birds), resonant",
+"theme_tags": [
+"nature",
+"grace",
+"harmony"
+],
+"poem_title": "鸟鸣涧",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "月出惊山鸟，时鸣春涧中",
+"line_en": "The rising moon startles the mountain birds, who call now and then in the spring ravine.",
+"title_en": "Birdsong Brook",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "涧",
+"pinyin": "jiàn",
+"tone": 4,
+"meaning_en": "mountain stream",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "鸟鸣涧",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "月出惊山鸟，时鸣春涧中",
+"line_en": "The rising moon startles the mountain birds, who call now and then in the spring ravine.",
+"title_en": "Birdsong Brook",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "雁",
+"pinyin": "yàn",
+"tone": 4,
+"meaning_en": "wild goose, messenger",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "塞下曲",
+"poet": "卢纶",
+"dynasty": "Tang",
+"line": "欲将轻骑逐，大雪满弓刀",
+"line_en": "About to give chase with light cavalry, we find our bows and blades heaped with snow.",
+"title_en": "Border Song",
+"poet_en": "Lu Lun",
+"poet_dates": "739–799",
+"gender": "n"
+},
+{
+"hanzi": "丽",
+"pinyin": "lì",
+"tone": 4,
+"meaning_en": "beautiful, splendid",
+"theme_tags": [
+"grace",
+"light"
+],
+"poem_title": "绝句",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "两个黄鹂鸣翠柳，一行白鹭上青天",
+"line_en": "Two golden orioles sing in the emerald willows; a line of white egrets rises into the blue sky.",
+"title_en": "A Quatrain",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "f"
+},
+{
+"hanzi": "鹭",
+"pinyin": "lù",
+"tone": 4,
+"meaning_en": "egret, purity",
+"theme_tags": [
+"grace",
+"light"
+],
+"poem_title": "绝句",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "两个黄鹂鸣翠柳，一行白鹭上青天",
+"line_en": "Two golden orioles sing in the emerald willows; a line of white egrets rises into the blue sky.",
+"title_en": "A Quatrain",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "青",
+"pinyin": "qīng",
+"tone": 1,
+"meaning_en": "blue-green, youthful, vibrant",
+"theme_tags": [
+"nature",
+"light"
+],
+"poem_title": "绝句",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "两个黄鹂鸣翠柳，一行白鹭上青天",
+"line_en": "Two golden orioles sing in the emerald willows; a line of white egrets rises into the blue sky.",
+"title_en": "A Quatrain",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "天",
+"pinyin": "tiān",
+"tone": 1,
+"meaning_en": "sky, heaven",
+"theme_tags": [
+"light",
+"wisdom"
+],
+"poem_title": "绝句",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "两个黄鹂鸣翠柳，一行白鹭上青天",
+"line_en": "Two golden orioles sing in the emerald willows; a line of white egrets rises into the blue sky.",
+"title_en": "A Quatrain",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "暖",
+"pinyin": "nuǎn",
+"tone": 3,
+"meaning_en": "warm, gentle warmth",
+"theme_tags": [
+"grace",
+"light",
+"harmony"
+],
+"poem_title": "钱塘湖春行",
+"poet": "白居易",
+"dynasty": "Tang",
+"line": "几处早莺争暖树",
+"line_en": "Here and there, early orioles vie for the sun-warmed trees.",
+"title_en": "A Spring Walk by Qiantang Lake",
+"poet_en": "Bai Juyi",
+"poet_dates": "772–846",
+"gender": "f"
+},
+{
+"hanzi": "芳",
+"pinyin": "fāng",
+"tone": 1,
+"meaning_en": "fragrant, virtuous",
+"theme_tags": [
+"grace",
+"nature",
+"harmony"
+],
+"poem_title": "春思",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "燕草如碧丝，秦桑低绿枝",
+"line_en": "The grass of Yan is like green silk; the mulberries of Qin bend low their verdant boughs.",
+"title_en": "Spring Thoughts",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "碧",
+"pinyin": "bì",
+"tone": 4,
+"meaning_en": "jade green, emerald",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "春思",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "燕草如碧丝，秦桑低绿枝",
+"line_en": "The grass of Yan is like green silk; the mulberries of Qin bend low their verdant boughs.",
+"title_en": "Spring Thoughts",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "莲",
+"pinyin": "lián",
+"tone": 2,
+"meaning_en": "lotus, pure beauty",
+"theme_tags": [
+"grace",
+"nature",
+"harmony"
+],
+"poem_title": "采莲曲",
+"poet": "王昌龄",
+"dynasty": "Tang",
+"line": "荷叶罗裙一色裁",
+"line_en": "Lotus leaves and silk skirts are cut from the selfsame hue.",
+"title_en": "Lotus-Picking Song",
+"poet_en": "Wang Changling",
+"poet_dates": "698–756",
+"gender": "f"
+},
+{
+"hanzi": "荷",
+"pinyin": "hé",
+"tone": 2,
+"meaning_en": "lotus leaf, elegant",
+"theme_tags": [
+"grace",
+"nature"
+],
+"poem_title": "采莲曲",
+"poet": "王昌龄",
+"dynasty": "Tang",
+"line": "荷叶罗裙一色裁",
+"line_en": "Lotus leaves and silk skirts are cut from the selfsame hue.",
+"title_en": "Lotus-Picking Song",
+"poet_en": "Wang Changling",
+"poet_dates": "698–756",
+"gender": "f"
+},
+{
+"hanzi": "影",
+"pinyin": "yǐng",
+"tone": 3,
+"meaning_en": "shadow, reflection, image",
+"theme_tags": [
+"solitude",
+"grace"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "起舞弄清影，何似在人间",
+"line_en": "I rise and dance with my clear shadow—how could this compare to the world of men?",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "舞",
+"pinyin": "wǔ",
+"tone": 3,
+"meaning_en": "dance, flourish",
+"theme_tags": [
+"grace",
+"wild"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "起舞弄清影，何似在人间",
+"line_en": "I rise and dance with my clear shadow—how could this compare to the world of men?",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "f"
+},
+{
+"hanzi": "寒",
+"pinyin": "hán",
+"tone": 2,
+"meaning_en": "cold, austere, resilient",
+"theme_tags": [
+"solitude",
+"strength"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "我欲乘风归去，又恐琼楼玉宇，高处不胜寒",
+"line_en": "I long to ride the wind and return, yet fear that in those jade towers and crystal halls, the heights would be too cold to bear.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "宇",
+"pinyin": "yǔ",
+"tone": 3,
+"meaning_en": "universe, vast expanse",
+"theme_tags": [
+"wisdom",
+"strength"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "我欲乘风归去，又恐琼楼玉宇",
+"line_en": "I long to ride the wind and return, yet I fear the jade towers and crystal halls.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "m"
+},
+{
+"hanzi": "归",
+"pinyin": "guī",
+"tone": 1,
+"meaning_en": "return, homecoming",
+"theme_tags": [
+"solitude",
+"grace",
+"peace"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "我欲乘风归去",
+"line_en": "I long to ride the wind and return.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "千",
+"pinyin": "qiān",
+"tone": 1,
+"meaning_en": "thousand, boundless",
+"theme_tags": [
+"strength",
+"wisdom"
+],
+"poem_title": "念奴娇·赤壁怀古",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "大江东去，浪淘尽，千古风流人物",
+"line_en": "The great river flows east, its waves washing away all the gallant heroes of the ages.",
+"title_en": "“Niannu Jiao”: Meditation on the Past at Red Cliff",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "浪",
+"pinyin": "làng",
+"tone": 4,
+"meaning_en": "wave, free-spirited",
+"theme_tags": [
+"wild",
+"strength"
+],
+"poem_title": "念奴娇·赤壁怀古",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "大江东去，浪淘尽，千古风流人物",
+"line_en": "The great river flows east, its waves washing away all the gallant heroes of the ages.",
+"title_en": "“Niannu Jiao”: Meditation on the Past at Red Cliff",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "m"
+},
+{
+"hanzi": "梦",
+"pinyin": "mèng",
+"tone": 4,
+"meaning_en": "dream, aspiration",
+"theme_tags": [
+"solitude",
+"grace"
+],
+"poem_title": "江城子·乙卯正月二十日夜记梦",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "夜来幽梦忽还乡",
+"line_en": "Last night, in a faint dream, I suddenly returned home.",
+"title_en": "“Jiangchengzi”: Recording a Dream, 1075",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "f"
+},
+{
+"hanzi": "疏",
+"pinyin": "shū",
+"tone": 1,
+"meaning_en": "sparse, unencumbered, open",
+"theme_tags": [
+"solitude",
+"grace"
+],
+"poem_title": "卜算子·咏梅",
+"poet": "陆游",
+"dynasty": "Song",
+"line": "无意苦争春，一任群芳妒",
+"line_en": "It has no wish to vie for spring's favor, content to let the other flowers envy it.",
+"title_en": "“Bu Suanzi”: Ode to the Plum Blossom",
+"poet_en": "Lu You",
+"poet_dates": "1125–1210",
+"gender": "n"
+},
+{
+"hanzi": "霞",
+"pinyin": "xiá",
+"tone": 2,
+"meaning_en": "rosy clouds, sunrise glow",
+"theme_tags": [
+"light",
+"grace"
+],
+"poem_title": "滕王阁序",
+"poet": "王勃",
+"dynasty": "Tang",
+"line": "落霞与孤鹜齐飞，秋水共长天一色",
+"line_en": "The setting clouds and a lone wild duck fly together; the autumn waters blend with the boundless sky in a single color.",
+"title_en": "Preface to the Pavilion of Prince Teng",
+"poet_en": "Wang Bo",
+"poet_dates": "650–676",
+"gender": "f"
+},
+{
+"hanzi": "鹜",
+"pinyin": "wù",
+"tone": 4,
+"meaning_en": "wild duck, free soaring",
+"theme_tags": [
+"wild",
+"nature"
+],
+"poem_title": "滕王阁序",
+"poet": "王勃",
+"dynasty": "Tang",
+"line": "落霞与孤鹜齐飞，秋水共长天一色",
+"line_en": "The setting clouds and a lone wild duck fly together; the autumn waters blend with the boundless sky in a single color.",
+"title_en": "Preface to the Pavilion of Prince Teng",
+"poet_en": "Wang Bo",
+"poet_dates": "650–676",
+"gender": "n"
+},
+{
+"hanzi": "露",
+"pinyin": "lù",
+"tone": 4,
+"meaning_en": "dew, glistening clarity",
+"theme_tags": [
+"light",
+"nature"
+],
+"poem_title": "玉阶怨",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "玉阶生白露，夜久侵罗袜",
+"line_en": "On the jade steps the white dew forms; deep in the night it soaks her silken stockings.",
+"title_en": "Lament on the Jade Steps",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "玉",
+"pinyin": "yù",
+"tone": 4,
+"meaning_en": "jade, precious, pure",
+"theme_tags": [
+"grace",
+"light"
+],
+"poem_title": "玉阶怨",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "玉阶生白露，夜久侵罗袜",
+"line_en": "On the jade steps the white dew forms; deep in the night it soaks her silken stockings.",
+"title_en": "Lament on the Jade Steps",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "f"
+},
+{
+"hanzi": "素",
+"pinyin": "sù",
+"tone": 4,
+"meaning_en": "plain, simple, white",
+"theme_tags": [
+"grace",
+"solitude",
+"peace"
+],
+"poem_title": "关山月",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "明月出天山，苍茫云海间",
+"line_en": "The bright moon rises over the Heavenly Mountains, amid a vast expanse of cloud and sea.",
+"title_en": "The Moon over the Mountain Pass",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "n"
+},
+{
+"hanzi": "苍",
+"pintml": "cāng",
+"pinyin": "cāng",
+"tone": 1,
+"meaning_en": "vast, grey-blue, ancient",
+"theme_tags": [
+"strength",
+"wisdom"
+],
+"poem_title": "关山月",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "明月出天山，苍茫云海间",
+"line_en": "The bright moon rises over the Heavenly Mountains, amid a vast expanse of cloud and sea.",
+"title_en": "The Moon over the Mountain Pass",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "m"
+},
+{
+"hanzi": "岚",
+"pinyin": "lán",
+"tone": 2,
+"meaning_en": "mountain mist, morning haze",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "终南山",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "白云回望合，青霭入看无",
+"line_en": "Looking back, the white clouds close behind; the blue mist, seen up close, has vanished.",
+"title_en": "Mount Zhongnan",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "f"
+},
+{
+"hanzi": "霭",
+"pinyin": "ǎi",
+"tone": 3,
+"meaning_en": "haze, gentle mist",
+"theme_tags": [
+"nature",
+"grace",
+"peace"
+],
+"poem_title": "终南山",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "白云回望合，青霭入看无",
+"line_en": "Looking back, the white clouds close behind; the blue mist, seen up close, has vanished.",
+"title_en": "Mount Zhongnan",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "n"
+},
+{
+"hanzi": "澜",
+"pinyin": "lán",
+"tone": 2,
+"meaning_en": "rippling waves, surging",
+"theme_tags": [
+"wild",
+"strength"
+],
+"poem_title": "浪淘沙",
+"poet": "刘禹锡",
+"dynasty": "Tang",
+"line": "九曲黄河万里沙，浪淘风簸自天涯",
+"line_en": "Through nine bends the Yellow River carries ten thousand li of sand, its waves sifted and winnowed from the edge of the sky.",
+"title_en": "“Lang Tao Sha” (Waves Washing Sand)",
+"poet_en": "Liu Yuxi",
+"poet_dates": "772–842",
+"gender": "m"
+},
+{
+"hanzi": "晴",
+"pinyin": "qíng",
+"tone": 2,
+"meaning_en": "clear sky after rain",
+"theme_tags": [
+"light",
+"nature"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "水光潋滟晴方好，山色空蒙雨亦奇",
+"line_en": "The shimmering water is lovely in the sun; the misty mountains are wondrous in the rain.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "潋",
+"pinyin": "liàn",
+"tone": 4,
+"meaning_en": "shimmering water",
+"theme_tags": [
+"light",
+"nature"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "水光潋滟晴方好",
+"line_en": "The shimmering water is lovely under clear skies.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "蒙",
+"pinyin": "méng",
+"tone": 2,
+"meaning_en": "misty, shrouded, gentle",
+"theme_tags": [
+"nature",
+"grace",
+"peace"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "山色空蒙雨亦奇",
+"line_en": "The mountains, veiled in misty haze, are wondrous even in the rain.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "奇",
+"pinyin": "qí",
+"tone": 2,
+"meaning_en": "wondrous, extraordinary",
+"theme_tags": [
+"wild",
+"wisdom"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "山色空蒙雨亦奇",
+"line_en": "The mountains, veiled in misty haze, are wondrous even in the rain.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "西",
+"pinyin": "xī",
+"tone": 1,
+"meaning_en": "west, the setting sun",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "欲把西湖比西子",
+"line_en": "If I would liken West Lake to the beauty Xizi.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "淡",
+"pinyin": "dàn",
+"tone": 4,
+"meaning_en": "light, faint, understated",
+"theme_tags": [
+"grace",
+"solitude",
+"peace"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "淡妆浓抹总相宜",
+"line_en": "Whether lightly or richly adorned, she is always lovely.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "妆",
+"pinyin": "zhuāng",
+"tone": 1,
+"meaning_en": "adornment, elegant dress",
+"theme_tags": [
+"grace",
+"light"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "淡妆浓抹总相宜",
+"line_en": "Whether lightly or richly adorned, she is always lovely.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "f"
+},
+{
+"hanzi": "宜",
+"pinyin": "yí",
+"tone": 2,
+"meaning_en": "suitable, graceful fit",
+"theme_tags": [
+"grace",
+"wisdom",
+"harmony"
+],
+"poem_title": "饮湖上初晴后雨",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "淡妆浓抹总相宜",
+"line_en": "Whether lightly or richly adorned, she is always lovely.",
+"title_en": "Drinking at the Lake, First Sunny then Rainy",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "萧",
+"pinyin": "xiāo",
+"tone": 1,
+"meaning_en": "desolate wind, rustling",
+"theme_tags": [
+"solitude",
+"wild"
+],
+"poem_title": "声声慢",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "梧桐更兼细雨，到黄昏、点点滴滴",
+"line_en": "On the wutong trees a fine rain falls; toward dusk it drips, drop by drop.",
+"title_en": "“Sheng Sheng Man” (Slow, Slow Tune)",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "n"
+},
+{
+"hanzi": "疏",
+"pinyin": "shū",
+"tone": 1,
+"meaning_en": "sparse, free of clutter",
+"theme_tags": [
+"solitude",
+"grace"
+],
+"poem_title": "卜算子",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "此情无计可消除",
+"line_en": "This longing—there is no way to dispel it.",
+"title_en": "To the tune “Bu Suanzi”",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "n"
+},
+{
+"hanzi": "愁",
+"pinyin": "chóu",
+"tone": 2,
+"meaning_en": "longing, deep feeling",
+"theme_tags": [
+"solitude",
+"grace"
+],
+"poem_title": "武陵春",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "物是人非事事休，欲语泪先流",
+"line_en": "Things remain, but the one is gone; all is ended—I would speak, but tears come first.",
+"title_en": "“Wuling Chun” (Spring at Wuling)",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "n"
+},
+{
+"hanzi": "芸",
+"pinyin": "yún",
+"tone": 2,
+"meaning_en": "common rue, fragrant herb",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "离骚",
+"poet": "屈原",
+"dynasty": "Chu",
+"line": "余既滋兰之九畹兮，又树蕙之百亩",
+"line_en": "I have nurtured nine fields of orchids, and planted a hundred acres of fragrant herbs.",
+"title_en": "Li Sao (Encountering Sorrow)",
+"poet_en": "Qu Yuan",
+"poet_dates": "c. 340–278 BCE",
+"gender": "f"
+},
+{
+"hanzi": "蕙",
+"pinyin": "huì",
+"tone": 4,
+"meaning_en": "orchid grass, elegant fragrance",
+"theme_tags": [
+"grace",
+"nature"
+],
+"poem_title": "离骚",
+"poet": "屈原",
+"dynasty": "Chu",
+"line": "余既滋兰之九畹兮，又树蕙之百亩",
+"line_en": "I have nurtured nine fields of orchids, and planted a hundred acres of fragrant herbs.",
+"title_en": "Li Sao (Encountering Sorrow)",
+"poet_en": "Qu Yuan",
+"poet_dates": "c. 340–278 BCE",
+"gender": "f"
+},
+{
+"hanzi": "浮",
+"pinyin": "fú",
+"tone": 2,
+"meaning_en": "floating, drifting lightly",
+"theme_tags": [
+"nature",
+"grace"
+],
+"poem_title": "登高",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "无边落木萧萧下，不尽长江滚滚来",
+"line_en": "Boundless, the falling leaves come rustling down; endless, the Yangtze comes rolling on.",
+"title_en": "Climbing High",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "落",
+"pinyin": "luò",
+"tone": 4,
+"meaning_en": "falling, letting go",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "登高",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "无边落木萧萧下",
+"line_en": "Boundless, the falling leaves come rustling down.",
+"title_en": "Climbing High",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "n"
+},
+{
+"hanzi": "木",
+"pinyin": "mù",
+"tone": 4,
+"meaning_en": "wood, tree, steadfast",
+"theme_tags": [
+"strength",
+"nature"
+],
+"poem_title": "登高",
+"poet": "杜甫",
+"dynasty": "Tang",
+"line": "无边落木萧萧下",
+"line_en": "Boundless, the falling leaves come rustling down.",
+"title_en": "Climbing High",
+"poet_en": "Du Fu",
+"poet_dates": "712–770",
+"gender": "m"
+},
+{
+"hanzi": "逸",
+"pinyin": "yì",
+"tone": 4,
+"meaning_en": "free, unrestrained, elegant",
+"theme_tags": [
+"wild",
+"grace"
+],
+"poem_title": "月下独酌",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "举杯邀明月，对影成三人",
+"line_en": "I raise my cup to invite the bright moon; with my shadow, we become three.",
+"title_en": "Drinking Alone under the Moon",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "m"
+},
+{
+"hanzi": "卿",
+"pinyin": "qīng",
+"tone": 1,
+"meaning_en": "darling, noble one (term of endearment)",
+"theme_tags": [
+"grace",
+"wisdom"
+],
+"poem_title": "长恨歌",
+"poet": "白居易",
+"dynasty": "Tang",
+"line": "在天愿作比翼鸟，在地愿为连理枝",
+"line_en": "In heaven, may we be birds that fly wing to wing; on earth, two branches grown as one.",
+"title_en": "Song of Everlasting Sorrow",
+"poet_en": "Bai Juyi",
+"poet_dates": "772–846",
+"gender": "n"
+},
+{
+"hanzi": "灵",
+"pinyin": "líng",
+"tone": 2,
+"meaning_en": "spirit, divine, magical",
+"theme_tags": [
+"wisdom",
+"light"
+],
+"poem_title": "离骚",
+"poet": "屈原",
+"dynasty": "Chu",
+"line": "纷吾既有此内美兮，又重之以修能",
+"line_en": "Rich already in inner beauty, I added to it cultivated grace.",
+"title_en": "Li Sao (Encountering Sorrow)",
+"poet_en": "Qu Yuan",
+"poet_dates": "c. 340–278 BCE",
+"gender": "n"
+},
+{
+"hanzi": "凤",
+"pinyin": "fèng",
+"tone": 4,
+"meaning_en": "phoenix, radiant nobility",
+"theme_tags": [
+"strength",
+"light"
+],
+"poem_title": "凤求凰",
+"poet": "司马相如",
+"dynasty": "Han",
+"line": "凤兮凤兮归故乡",
+"line_en": "Phoenix, O phoenix, returning to your homeland.",
+"title_en": "The Phoenix Seeks His Mate",
+"poet_en": "Sima Xiangru",
+"poet_dates": "179–117 BCE",
+"gender": "f"
+},
+{
+"hanzi": "瑶",
+"pinyin": "yáo",
+"tone": 2,
+"meaning_en": "fine jade, luminous beauty",
+"theme_tags": [
+"grace",
+"light"
+],
+"poem_title": "寄扬州韩绰判官",
+"poet": "杜牧",
+"dynasty": "Tang",
+"line": "二十四桥明月夜，玉人何处教吹箫",
+"line_en": "On the Twenty-Four Bridges on a moonlit night, where now does the jade-like beauty teach the flute?",
+"title_en": "To Judge Han Chuo at Yangzhou",
+"poet_en": "Du Mu",
+"poet_dates": "803–852",
+"gender": "f"
+},
+{
+"hanzi": "韵",
+"pinyin": "yùn",
+"tone": 4,
+"meaning_en": "rhyme, resonance, charm",
+"theme_tags": [
+"grace",
+"wisdom",
+"harmony"
+],
+"poem_title": "赤壁",
+"poet": "杜牧",
+"dynasty": "Tang",
+"line": "东风不与周郎便，铜雀春深锁二乔",
+"line_en": "Had the east wind not favored young Zhou, the Bronze Sparrow Tower would have locked the two Qiao beauties deep in spring.",
+"title_en": "Red Cliff",
+"poet_en": "Du Mu",
+"poet_dates": "803–852",
+"gender": "f"
+},
+{
+"hanzi": "澄",
+"pinyin": "chéng",
+"tone": 2,
+"meaning_en": "clear, limpid, pellucid",
+"theme_tags": [
+"light",
+"wisdom",
+"peace"
+],
+"poem_title": "秋夕",
+"poet": "杜牧",
+"dynasty": "Tang",
+"line": "银烛秋光冷画屏",
+"line_en": "A silver candle's autumn glow falls cold upon the painted screen.",
+"title_en": "Autumn Evening",
+"poet_en": "Du Mu",
+"poet_dates": "803–852",
+"gender": "n"
+},
+{
+"hanzi": "冰",
+"pinyin": "bīng",
+"tone": 1,
+"meaning_en": "ice, crystal clarity",
+"theme_tags": [
+"light",
+"strength"
+],
+"poem_title": "芙蓉楼送辛渐",
+"poet": "王昌龄",
+"dynasty": "Tang",
+"line": "洛阳亲友如相问，一片冰心在玉壶",
+"line_en": "If friends in Luoyang should ask after me—my heart stays pure as ice in a jade vase.",
+"title_en": "Seeing Off Xin Jian at Lotus Tower",
+"poet_en": "Wang Changling",
+"poet_dates": "698–756",
+"gender": "n"
+},
+{
+"hanzi": "心",
+"pinyin": "xīn",
+"tone": 1,
+"meaning_en": "heart, core, essence",
+"theme_tags": [
+"wisdom",
+"grace"
+],
+"poem_title": "芙蓉楼送辛渐",
+"poet": "王昌龄",
+"dynasty": "Tang",
+"line": "一片冰心在玉壶",
+"line_en": "A heart pure as ice in a jade vase.",
+"title_en": "Seeing Off Xin Jian at Lotus Tower",
+"poet_en": "Wang Changling",
+"poet_dates": "698–756",
+"gender": "n"
+},
+{
+"hanzi": "壶",
+"pinyin": "hú",
+"tone": 2,
+"meaning_en": "jade vessel, pure container",
+"theme_tags": [
+"grace",
+"solitude"
+],
+"poem_title": "芙蓉楼送辛渐",
+"poet": "王昌龄",
+"dynasty": "Tang",
+"line": "一片冰心在玉壶",
+"line_en": "A heart pure as ice in a jade vase.",
+"title_en": "Seeing Off Xin Jian at Lotus Tower",
+"poet_en": "Wang Changling",
+"poet_dates": "698–756",
+"gender": "n"
+},
+{
+"hanzi": "蝶",
+"pinyin": "dié",
+"tone": 2,
+"meaning_en": "butterfly, transformation",
+"theme_tags": [
+"grace",
+"wild"
+],
+"poem_title": "蝶恋花",
+"poet": "晏殊",
+"dynasty": "Song",
+"line": "昨夜西风凋碧树，独上高楼，望尽天涯路",
+"line_en": "Last night the west wind withered the green trees; alone I climbed the high tower and gazed to the world's far edge.",
+"title_en": "“Die Lian Hua” (Butterflies Lingering over Flowers)",
+"poet_en": "Yan Shu",
+"poet_dates": "991–1055",
+"gender": "f"
+},
+{
+"hanzi": "恋",
+"pinyin": "liàn",
+"tone": 4,
+"meaning_en": "to long for, attachment",
+"theme_tags": [
+"grace",
+"solitude"
+],
+"poem_title": "蝶恋花",
+"poet": "晏殊",
+"dynasty": "Song",
+"line": "昨夜西风凋碧树",
+"line_en": "Last night the west wind withered the green trees.",
+"title_en": "“Die Lian Hua” (Butterflies Lingering over Flowers)",
+"poet_en": "Yan Shu",
+"poet_dates": "991–1055",
+"gender": "f"
+},
+{
+"hanzi": "涛",
+"pinyin": "tāo",
+"tone": 1,
+"meaning_en": "great waves, surging power",
+"theme_tags": [
+"strength",
+"wild"
+],
+"poem_title": "浪淘沙",
+"poet": "李煜",
+"dynasty": "Song",
+"line": "流水落花春去也，天上人间",
+"line_en": "Flowing water, fallen blossoms—spring is gone, as far apart as heaven and the human world.",
+"title_en": "“Lang Tao Sha” (Waves Washing Sand)",
+"poet_en": "Li Yu",
+"poet_dates": "937–978",
+"gender": "m"
+},
+{
+"hanzi": "絮",
+"pinyin": "xù",
+"tone": 4,
+"meaning_en": "willow floss, drifting softness",
+"theme_tags": [
+"grace",
+"nature"
+],
+"poem_title": "虞美人",
+"poet": "李煜",
+"dynasty": "Song",
+"line": "春花秋月何时了，往事知多少",
+"line_en": "Spring blossoms, autumn moon—when will they ever end? How much of the past is already gone?",
+"title_en": "“Yu Meiren” (The Beautiful Lady Yu)",
+"poet_en": "Li Yu",
+"poet_dates": "937–978",
+"gender": "f"
+},
+{
+"hanzi": "竞",
+"pinyin": "jìng",
+"tone": 4,
+"meaning_en": "to strive, vigour",
+"theme_tags": [
+"strength",
+"bold"
+],
+"poem_title": "念奴娇·赤壁怀古",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "大江东去，浪淘尽，千古风流人物",
+"line_en": "The great river flows east, its waves washing away all the gallant heroes of the ages.",
+"title_en": "“Niannu Jiao”: Meditation on the Past at Red Cliff",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "m"
+},
+{
+"hanzi": "萍",
+"pinyin": "píng",
+"tone": 2,
+"meaning_en": "duckweed, free-floating",
+"theme_tags": [
+"nature",
+"solitude"
+],
+"poem_title": "如梦令",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "争渡，争渡，惊起一滩鸥鹭",
+"line_en": "Rowing hard, rowing hard—startling a whole shoal of gulls and herons into flight.",
+"title_en": "“Ru Meng Ling” (Like a Dream)",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "f"
+},
+{
+"hanzi": "鸥",
+"pinyin": "ōu",
+"tone": 1,
+"meaning_en": "seagull, freedom",
+"theme_tags": [
+"wild",
+"nature"
+],
+"poem_title": "如梦令",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "争渡，争渡，惊起一滩鸥鹭",
+"line_en": "Rowing hard, rowing hard—startling a whole shoal of gulls and herons into flight.",
+"title_en": "“Ru Meng Ling” (Like a Dream)",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "n"
+},
+{
+"hanzi": "渡",
+"pinyin": "dù",
+"tone": 4,
+"meaning_en": "to cross, passage",
+"theme_tags": [
+"strength",
+"solitude"
+],
+"poem_title": "如梦令",
+"poet": "李清照",
+"dynasty": "Song",
+"line": "争渡，争渡，惊起一滩鸥鹭",
+"line_en": "Rowing hard, rowing hard—startling a whole shoal of gulls and herons into flight.",
+"title_en": "“Ru Meng Ling” (Like a Dream)",
+"poet_en": "Li Qingzhao",
+"poet_dates": "1084–1155",
+"gender": "m"
+},
+{
+"hanzi": "碍",
+"pinyin": "ài",
+"tone": 4,
+"meaning_en": "unhindered, flowing free",
+"theme_tags": [
+"wild",
+"grace"
+],
+"poem_title": "望天门山",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "天门中断楚江开，碧水东流至此回",
+"line_en": "Heaven's Gate is cleft where the Chu River breaks through; the jade-green waters flow east, then turn back here.",
+"title_en": "Gazing at Heaven's Gate Mountain",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "n"
+},
+{
+"hanzi": "朗",
+"pinyin": "lǎng",
+"tone": 3,
+"meaning_en": "clear, bright, resounding",
+"theme_tags": [
+"light",
+"bold"
+],
+"poem_title": "月下独酌",
+"poet": "李白",
+"dynasty": "Tang",
+"line": "举杯邀明月，对影成三人",
+"line_en": "I raise my cup to invite the bright moon; with my shadow, we become three.",
+"title_en": "Drinking Alone under the Moon",
+"poet_en": "Li Bai",
+"poet_dates": "701–762",
+"gender": "m"
+},
+{
+"hanzi": "旷",
+"pinyin": "kuàng",
+"tone": 4,
+"meaning_en": "vast, open, serene expanse",
+"theme_tags": [
+"solitude",
+"strength",
+"peace"
+],
+"poem_title": "使至塞上",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "大漠孤烟直，长河落日圆",
+"line_en": "Over the vast desert a lone smoke rises straight; above the long river the setting sun is round.",
+"title_en": "On a Mission to the Frontier",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "m"
+},
+{
+"hanzi": "漠",
+"pinyin": "mò",
+"tone": 4,
+"meaning_en": "desert, boundless silence",
+"theme_tags": [
+"solitude",
+"strength"
+],
+"poem_title": "使至塞上",
+"poet": "王维",
+"dynasty": "Tang",
+"line": "大漠孤烟直，长河落日圆",
+"line_en": "Over the vast desert a lone smoke rises straight; above the long river the setting sun is round.",
+"title_en": "On a Mission to the Frontier",
+"poet_en": "Wang Wei",
+"poet_dates": "701–761",
+"gender": "m"
+},
+{
+"hanzi": "圆",
+"pinyin": "yuán",
+"tone": 2,
+"meaning_en": "round, complete, harmonious",
+"theme_tags": [
+"wisdom",
+"grace",
+"harmony"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "但愿人长久，千里共婵娟",
+"line_en": "May we be blessed with long life, and share the moon's beauty though a thousand li apart.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "n"
+},
+{
+"hanzi": "婵",
+"pinyin": "chán",
+"tone": 2,
+"meaning_en": "graceful, beautiful moon",
+"theme_tags": [
+"grace",
+"light",
+"harmony"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "千里共婵娟",
+"line_en": "Though a thousand li apart, we share the same fair moon.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "f"
+},
+{
+"hanzi": "娟",
+"pinyin": "juān",
+"tone": 1,
+"meaning_en": "delicate, graceful, moonlit",
+"theme_tags": [
+"grace",
+"light",
+"harmony"
+],
+"poem_title": "水调歌头",
+"poet": "苏轼",
+"dynasty": "Song",
+"line": "千里共婵娟",
+"line_en": "Though a thousand li apart, we share the same fair moon.",
+"title_en": "“Shuidiao Getou” (Prelude to Water Melody)",
+"poet_en": "Su Shi",
+"poet_dates": "1037–1101",
+"gender": "f"
+}
+]

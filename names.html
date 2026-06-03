@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>诗名 · Poetic Chinese Name — MA, Xiao</title>
+  <meta name="description" content="Find your poetic Chinese name, drawn from the lines of Tang and Song dynasty poetry." />
+  <link rel="canonical" href="https://maxiao.law/names.html" />
+
+  <!-- Shared nav fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main site nav styles (reuse header only) -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- 诗名 page styles -->
+  <link rel="stylesheet" href="names-style.css" />
+</head>
+<body class="names-page">
+
+  <!-- ── PAINTING BACKGROUND (fixed, full page) ── -->
+  <div class="painting-bg" aria-hidden="true"></div>
+  <div class="painting-scrim" aria-hidden="true"></div>
+
+  <!-- ── RAIN RIPPLE CANVAS (full page surface) ── -->
+  <canvas id="rain-canvas" aria-hidden="true"></canvas>
+
+  <!-- ── BACKGROUND MUSIC (guqin) ── -->
+  <audio id="bg-music" loop preload="none">
+    <source src="guqin-zuiyu-changwan.ogg" type="audio/ogg" />
+    <source src="guqin-zuiyu-changwan.mp3" type="audio/mpeg" />
+  </audio>
+  <button id="music-toggle" class="music-toggle" aria-label="Play background music" title="古琴《醉渔唱晚》">
+    <span class="music-icon">♫</span>
+    <span class="music-label">古琴</span>
+  </button>
+
+  <!-- ── NAV (shared with main site) ── -->
+  <header>
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">MA, Xiao</a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="creative.html" class="active">Creative</a></li>
+        <li><a href="cv.pdf" target="_blank">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ── INK OVERLAY (transition) ── -->
+  <div class="ink-overlay" id="ink-overlay"></div>
+
+  <!-- ── SCENE ── -->
+  <div class="scene">
+
+    <!-- ── INPUT CARD ── -->
+    <div class="name-card">
+      <p class="prompt-cn">请告诉我你的名字</p>
+      <p class="prompt-en">"Tell me your name."</p>
+
+      <div class="name-input-wrap">
+        <input type="text" class="name-input" id="name-input"
+               placeholder="e.g. Sophie, Marcus, Elena…"
+               autocomplete="off" spellcheck="false" maxlength="40" />
+      </div>
+
+      <div class="prefs">
+        <div class="pref-group pref-theme">
+          <span class="pref-label">What draws you?</span>
+          <div class="pill-row">
+            <span class="pill" data-value="nature">nature</span>
+            <span class="pill" data-value="light">light</span>
+            <span class="pill" data-value="strength">strength</span>
+            <span class="pill" data-value="wisdom">wisdom</span>
+            <span class="pill" data-value="grace">grace</span>
+            <span class="pill" data-value="solitude">solitude</span>
+            <span class="pill" data-value="harmony">harmony</span>
+            <span class="pill" data-value="peace">peace</span>
+          </div>
+        </div>
+
+        <div class="pref-group pref-feeling">
+          <span class="pref-label">Your name's feeling</span>
+          <div class="pill-row">
+            <span class="pill" data-value="gentle">gentle</span>
+            <span class="pill" data-value="bold">bold</span>
+            <span class="pill" data-value="light">luminous</span>
+            <span class="pill" data-value="solitude">still</span>
+            <span class="pill" data-value="wild">wild</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn-generate" id="btn-generate">
+        寻名 · Find my name
+      </button>
+    </div>
+  </div><!-- /scene -->
+
+  <!-- ── RESULT PANEL ── -->
+  <div class="result-panel" id="result-panel" role="region" aria-label="Your poetic name">
+    <div class="result-inner">
+
+      <!-- Back to query page -->
+      <button class="btn-back-link" id="btn-back">
+        ← 返回 · Back
+      </button>
+
+      <!-- Name characters -->
+      <div class="result-name-row" id="result-name-row">
+        <!-- populated by JS -->
+      </div>
+
+      <!-- Gloss -->
+      <div class="result-gloss" id="result-gloss"></div>
+
+      <!-- Phonetic echo of the English name -->
+      <div class="result-echo" id="result-echo"></div>
+
+      <!-- TTS -->
+      <div id="tts-wrap" style="margin-bottom:1.6rem;"></div>
+
+      <!-- Poem sources -->
+      <div class="result-sources" id="result-sources"></div>
+
+      <!-- Actions -->
+      <div class="result-actions" id="result-actions">
+        <button class="btn-another" id="btn-another">另一个名字 · Another</button>
+        <button class="btn-copy" id="btn-copy">Copy</button>
+      </div>
+
+      <div class="seal">诗名 · maxiao.law</div>
+    </div>
+  </div>
+
+  <!-- ── PAINTING + MUSIC CREDIT ── -->
+  <div class="painting-credit">
+    《清明上河图》 Along the River During the Qingming Festival · Zhang Zeduan, Northern Song · public domain<br />
+    Music: 古琴《醉渔唱晚》 performed by Charlie Huang ·
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </div>
+
+  <script src="names-script.js"></script>
+</body>
+</html>

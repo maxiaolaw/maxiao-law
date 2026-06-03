@@ -1,0 +1,632 @@
+/* ── 诗名 · Poetic Name Finder ── */
+/* Completely separate from main site palette */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+:root {
+  --parch:        #f5ead6;
+  --parch-dark:   #ede0c0;
+  --ink:          #2a1f14;
+  --ink-soft:     #5c3d1a;
+  --ink-faint:    #8a6a4a;
+  --willow:       #7a8c5a;
+  --willow-dark:  #4e5e35;
+  --water:        #8aabbf;
+  --water-dark:   #5a86a0;
+  --mist:         rgba(232, 220, 200, 0.55);
+  --terra:        #b85c38;
+  --terra-soft:   #d4825c;
+  --cream:        #fdf6e8;
+  --shadow:       rgba(42, 31, 20, 0.12);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body.names-page {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  background: var(--parch);
+  color: var(--ink);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Nav (inherits site nav via shared HTML, just tint it) ── */
+body.names-page header {
+  background: rgba(245, 234, 214, 0.92);
+  border-bottom: 1px solid rgba(42, 31, 20, 0.12);
+}
+body.names-page .nav-logo { color: var(--ink); }
+body.names-page .nav-links a { color: var(--ink-soft); }
+body.names-page .nav-links a:hover,
+body.names-page .nav-links a.active { color: var(--terra); }
+
+/* ── Painting background (fixed, full page) ── */
+/* 清明上河图 — a long handscroll that slowly pans, as if being unrolled.
+   The image fills the viewport height; background-position animates across
+   its width and reverses (alternate) so the city↔countryside ends never
+   produce a visible seam. */
+.painting-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  background-color: #b39a76;            /* aged-silk base, matches scroll */
+  background-image: url('painting-qingming.jpg');
+  background-size: auto 100%;
+  background-position: 0% center;
+  background-repeat: no-repeat;
+  animation: scroll-pan 900s linear infinite alternate;
+}
+
+@keyframes scroll-pan {
+  from { background-position: 0%   center; }
+  to   { background-position: 100% center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .painting-bg { animation: none; background-position: 30% center; }
+}
+
+/* Scrim over the painting for text legibility + mood.
+   Stronger than the Xisai version because this scroll is dense with detail. */
+.painting-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(ellipse 58% 52% at 50% 47%,
+      rgba(244, 233, 212, 0.86) 0%,
+      rgba(244, 233, 212, 0.55) 42%,
+      rgba(244, 233, 212, 0.12) 72%),
+    linear-gradient(to bottom,
+      rgba(40, 30, 18, 0.30) 0%,
+      rgba(40, 30, 18, 0.10) 28%,
+      rgba(40, 30, 18, 0.10) 72%,
+      rgba(40, 30, 18, 0.34) 100%);
+  pointer-events: none;
+}
+
+/* ── Rain ripple canvas (full page surface) ── */
+#rain-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* ── Painting credit ── */
+.painting-credit {
+  position: fixed;
+  bottom: 8px;
+  right: 14px;
+  z-index: 5;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.68rem;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: rgba(42, 31, 20, 0.45);
+  text-align: right;
+  pointer-events: none;
+  max-width: 70vw;
+}
+.painting-credit a { color: rgba(42, 31, 20, 0.55); pointer-events: auto; text-decoration: underline; }
+.painting-credit a:hover { color: var(--terra); }
+
+/* ── Background-music toggle ── */
+.music-toggle {
+  position: fixed;
+  bottom: 18px;
+  left: 18px;
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  background: rgba(245, 237, 220, 0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(42, 31, 20, 0.2);
+  border-radius: 40px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: 0 3px 12px rgba(42, 31, 20, 0.12);
+}
+.music-toggle:hover {
+  border-color: var(--terra-soft);
+  color: var(--terra);
+}
+.music-toggle .music-icon {
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 0.3s;
+}
+/* Gentle pulse + spin while playing */
+.music-toggle.playing {
+  border-color: var(--terra);
+  color: var(--terra);
+}
+.music-toggle.playing .music-icon {
+  animation: music-spin 6s linear infinite;
+}
+@keyframes music-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@media (max-width: 520px) {
+  .music-toggle { bottom: 12px; left: 12px; padding: 0.35rem 0.7rem; }
+}
+
+/* ── Scene container ── */
+.scene {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem 3rem;
+  transition: opacity 0.5s ease;
+}
+
+/* Hide the input scene while a result is open (prevents bleed-through) */
+body.result-open .scene { opacity: 0; pointer-events: none; }
+
+/* ── Central UI card ── */
+.name-card {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 2.8rem 3rem 3rem;
+  max-width: 520px;
+  width: 90%;
+  background: rgba(245, 237, 220, 0.55);
+  backdrop-filter: blur(7px) saturate(1.1);
+  -webkit-backdrop-filter: blur(7px) saturate(1.1);
+  border: 1px solid rgba(42, 31, 20, 0.14);
+  border-radius: 3px;
+  box-shadow: 0 12px 40px rgba(42, 31, 20, 0.18);
+}
+
+/* ── Prompt text ── */
+.prompt-cn {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.25em;
+  margin-bottom: 0.4rem;
+}
+
+.prompt-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--ink-soft);
+  margin-bottom: 2rem;
+  letter-spacing: 0.04em;
+}
+
+/* ── Input ── */
+.name-input-wrap {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.name-input {
+  width: 100%;
+  background: rgba(253, 246, 232, 0.75);
+  border: 1px solid rgba(42, 31, 20, 0.22);
+  border-radius: 2px;
+  padding: 0.75rem 1.2rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  color: var(--ink);
+  text-align: center;
+  letter-spacing: 0.06em;
+  outline: none;
+  backdrop-filter: blur(4px);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.name-input::placeholder { color: var(--ink-faint); font-style: italic; }
+.name-input:focus {
+  border-color: rgba(184, 92, 56, 0.5);
+  box-shadow: 0 0 0 3px rgba(184, 92, 56, 0.08);
+}
+
+/* ── Preference pills ── */
+.prefs {
+  margin-bottom: 2rem;
+}
+
+.pref-group {
+  margin-bottom: 1.1rem;
+}
+
+.pref-label {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.55rem;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: center;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.28rem 0.85rem;
+  border: 1px solid rgba(42, 31, 20, 0.2);
+  border-radius: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  background: rgba(253, 246, 232, 0.5);
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+  letter-spacing: 0.03em;
+}
+.pill:hover {
+  background: rgba(184, 92, 56, 0.1);
+  border-color: var(--terra-soft);
+  color: var(--terra);
+}
+.pill.selected {
+  background: rgba(184, 92, 56, 0.15);
+  border-color: var(--terra);
+  color: var(--terra);
+}
+
+/* ── Generate button ── */
+.btn-generate {
+  display: inline-block;
+  padding: 0.7rem 2.4rem;
+  background: var(--ink);
+  color: var(--parch);
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.15s;
+}
+.btn-generate:hover { background: var(--ink-soft); transform: translateY(-1px); }
+.btn-generate:active { transform: translateY(0); }
+.btn-generate:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ── Ink splash transition ── */
+.ink-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.ink-overlay.active { opacity: 1; pointer-events: all; }
+
+.ink-blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(42,31,20,0.92) 0%, rgba(42,31,20,0.0) 70%);
+  animation: ink-expand 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes ink-expand {
+  0%   { transform: translate(-50%,-50%) scale(0); opacity: 1; }
+  60%  { opacity: 0.85; }
+  100% { transform: translate(-50%,-50%) scale(120); opacity: 0; }
+}
+
+/* ── Result panel ── */
+.result-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: flex-start;          /* top-align so tall content clears the header */
+  justify-content: center;
+  padding: 88px 1rem 3rem;          /* 64px header + breathing room */
+  /* Painting shows through; scene card is hidden via body.result-open */
+  background:
+    radial-gradient(ellipse 70% 72% at 50% 50%,
+      rgba(245, 234, 214, 0.80) 0%,
+      rgba(245, 234, 214, 0.58) 55%,
+      rgba(245, 234, 214, 0.34) 85%),
+    linear-gradient(to bottom,
+      rgba(40, 30, 18, 0.20) 0%,
+      rgba(40, 30, 18, 0.06) 35%,
+      rgba(40, 30, 18, 0.06) 65%,
+      rgba(40, 30, 18, 0.24) 100%);
+  backdrop-filter: blur(3px) saturate(1.05);
+  -webkit-backdrop-filter: blur(3px) saturate(1.05);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  pointer-events: none;
+  overflow-y: auto;
+}
+.result-panel.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.result-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0.5rem 2rem 4rem;
+  max-width: 600px;
+  width: 92%;
+}
+
+/* ── Back button (fixed, always visible below the header) ── */
+.btn-back-link {
+  position: fixed;
+  top: 78px;
+  left: 18px;
+  z-index: 70;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(245, 237, 220, 0.78);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(42, 31, 20, 0.22);
+  border-radius: 40px;
+  padding: 0.42rem 1rem;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.06em;
+  box-shadow: 0 3px 12px rgba(42, 31, 20, 0.12);
+  transition: all 0.2s;
+}
+.btn-back-link:hover {
+  border-color: var(--terra-soft);
+  color: var(--terra);
+}
+@media (max-width: 520px) {
+  .btn-back-link { top: 72px; left: 12px; padding: 0.36rem 0.8rem; font-size: 0.85rem; }
+}
+
+/* ── Name display ── */
+.result-name-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.result-char {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.result-char.revealed { opacity: 1; transform: translateY(0); }
+
+.char-hanzi {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.char-pinyin {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--terra);
+  margin-top: 0.4rem;
+  letter-spacing: 0.08em;
+}
+
+.char-meaning {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.88rem;
+  color: var(--ink-faint);
+  margin-top: 0.2rem;
+  letter-spacing: 0.05em;
+}
+
+/* ── Gloss ── */
+.result-gloss {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--ink-soft);
+  margin: 1.4rem 0 0.6rem;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  transition: opacity 0.6s ease 0.6s;
+}
+.result-gloss.revealed { opacity: 1; }
+
+/* ── Phonetic echo of the English name ── */
+.result-echo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.98rem;
+  color: var(--ink-faint);
+  margin: 0 0 1.8rem;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  transition: opacity 0.6s ease 0.75s;
+}
+.result-echo.revealed { opacity: 1; }
+.result-echo .echo-hanzi {
+  font-family: 'Noto Serif SC', serif;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+.result-echo .echo-pinyin { font-style: italic; color: var(--terra); }
+.result-echo .echo-letter { font-weight: 600; color: var(--terra); font-style: normal; }
+.result-echo .echo-name   { font-style: italic; color: var(--ink-soft); }
+
+/* ── Poem sources ── */
+.result-sources {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transition: opacity 0.5s ease 0.9s;
+}
+.result-sources.revealed { opacity: 1; }
+
+.source-block {
+  background: rgba(253, 246, 232, 0.6);
+  border: 1px solid rgba(42, 31, 20, 0.1);
+  border-left: 3px solid var(--terra-soft);
+  border-radius: 0 2px 2px 0;
+  padding: 0.85rem 1.1rem;
+  text-align: left;
+}
+
+.source-line {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1rem;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.06em;
+}
+
+.source-line-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+  margin-bottom: 0.55rem;
+  letter-spacing: 0.02em;
+}
+
+.source-attr {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.03em;
+  padding-top: 0.4rem;
+  border-top: 1px solid rgba(42, 31, 20, 0.08);
+}
+
+.source-title { font-style: italic; }
+.source-poet { font-style: normal; }
+
+/* ── Read-aloud button ── */
+.btn-speak {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.6rem;
+  background: transparent;
+  border: 1px solid rgba(42, 31, 20, 0.3);
+  border-radius: 2px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+  letter-spacing: 0.06em;
+}
+.btn-speak:hover {
+  background: rgba(184, 92, 56, 0.08);
+  border-color: var(--terra-soft);
+  color: var(--terra);
+}
+.btn-speak.speaking { color: var(--terra); border-color: var(--terra); }
+.speak-icon { font-size: 1.1rem; }
+.no-tts {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+/* ── Result action buttons ── */
+.result-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  transition: opacity 0.5s ease 1.1s;
+}
+.result-actions.revealed { opacity: 1; }
+
+.btn-another {
+  padding: 0.6rem 1.6rem;
+  background: var(--ink);
+  color: var(--parch);
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-another:hover { background: var(--ink-soft); }
+
+.btn-copy {
+  padding: 0.6rem 1.6rem;
+  background: transparent;
+  border: 1px solid rgba(42, 31, 20, 0.3);
+  border-radius: 2px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.06em;
+}
+.btn-copy:hover {
+  border-color: var(--terra-soft);
+  color: var(--terra);
+}
+.btn-copy.copied { color: var(--willow-dark); border-color: var(--willow); }
+
+/* ── Decorative seal ── */
+.seal {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: rgba(42,31,20,0.25);
+  margin-top: 2.5rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 520px) {
+  .name-card { padding: 1.8rem 1.4rem 2.2rem; }
+  .char-hanzi { font-size: 3.2rem; }
+  .result-name-row { gap: 1.2rem; }
+  .prompt-en { font-size: 1.25rem; }
+}
